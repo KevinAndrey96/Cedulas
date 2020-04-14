@@ -15,7 +15,7 @@ app.post('/', function (req, res) {
 	
 	var messa="";
 	req.body.forEach(peticion => { 
-    	Person.create({ document: peticion.cedula, firstName: peticion.name, lastName: peticion.lastName,  score: parseFloat(peticion.score.replace(',', '.')), municipality: peticion.municipality});
+    	Person.create({ document: peticion.cedula, firstName: peticion.name, lastName: peticion.lastName,  score: parseFloat(peticion.score.replace(',', '.')), municipality: peticion.municipality, check: peticion.check, type: peticion.type});
     }); 
     res.json({ 
 	     status: "200", message: "Ok" 
