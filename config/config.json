@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "shape_cedulas",
+    "password": "Cedulas2020@",
+    "database": "shape_cedulas",
+    "host": "instanceshape.com",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "shape_cedulas",
+    "password": "Cedulas2020@",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "shape_cedulas",
+    "password": "Cedulas2020@",
+    "database": "shape_cedulas",
+    "host": "localhost",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
