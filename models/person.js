@@ -2,11 +2,7 @@
 module.exports = (sequelize, DataTypes) => {
   const Person = sequelize.define('Person', {
     document: {
-        type: DataTypes.STRING,
-        unique: {
-            args: true,
-            msg: 'Persona ya en base de datos'
-        }
+        type: DataTypes.STRING
       },
     firstName: DataTypes.STRING,
     lastName: DataTypes.STRING,
